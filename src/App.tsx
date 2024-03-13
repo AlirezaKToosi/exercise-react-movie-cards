@@ -1,7 +1,12 @@
-export function App() {
+import React from "react";
+import AddMovie from "../src/component/AddMovie";
+
+const App: React.FC = () => {
   return (
-    <>
-      <h1>This is the App component</h1>
-    </>
+    <div className="AB">
+      <AddMovie />
+    </div>
   );
-}
+};
+
+export default App;
